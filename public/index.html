@@ -61,9 +61,11 @@
       const searchTerm = searchInput.val()
       $.ajax(`/api/characters/${searchTerm}`)
         .then(characterData => {
-          avatar.attr('src', characterData.avatar)
+            console.log(avatar)
+          avatar.attr('src', characterData.avatarImg)
+          console.log(avatar)
           name.text(characterData.name)
-          age.text(CharacterData.age)
+          age.text(characterData.age)
           role.text(characterData.role)
           forcePoints.text(characterData.forcePoints)
         })

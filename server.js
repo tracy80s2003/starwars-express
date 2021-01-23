@@ -12,7 +12,7 @@ const characters = [
         role: 'Jedi Master', 
         forcePoints: 100000,
         age: 900,
-        avatarImg: 'https://static.wikia.nocookie.net/starwars/images/d/d6/Yoda_SWSB.png/revision/latest/scale-to-width-down/500?cb=20150206140125',
+        avatarImg: 'https://observer.com/wp-content/uploads/sites/2/2020/05/yoda-art-observer.jpg?quality=80',
         routeName: 'yoda'
     },
     {
